@@ -33,7 +33,7 @@ struct ContentView: View {
             ForEach(0..<cardCount, id: \.self) {index in
                 CardView(content: mascotes[index])
                     .aspectRatio(2/3, contentMode: .fit)
-            }.foregroundColor(.green)
+            }.foregroundColor(.purple)
         }
     }
 
