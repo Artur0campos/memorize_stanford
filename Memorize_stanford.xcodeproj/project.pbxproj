@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97218BBE2B9B829000B6C170 /* Memorize_stanfordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BBD2B9B829000B6C170 /* Memorize_stanfordApp.swift */; };
+		97218BC02B9B829000B6C170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BBF2B9B829000B6C170 /* ContentView.swift */; };
+		97218BC22B9B829100B6C170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97218BC12B9B829100B6C170 /* Assets.xcassets */; };
+		97218BC52B9B829100B6C170 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97218BC42B9B829100B6C170 /* Preview Assets.xcassets */; };
+		97218BCF2B9B829100B6C170 /* Memorize_stanfordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BCE2B9B829100B6C170 /* Memorize_stanfordTests.swift */; };
+		97218BD92B9B829100B6C170 /* Memorize_stanfordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BD82B9B829100B6C170 /* Memorize_stanfordUITests.swift */; };
+		97218BDB2B9B829100B6C170 /* Memorize_stanfordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BDA2B9B829100B6C170 /* Memorize_stanfordUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97218BCB2B9B829100B6C170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97218BB22B9B829000B6C170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97218BB92B9B829000B6C170;
+			remoteInfo = Memorize_stanford;
+		};
+		97218BD52B9B829100B6C170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97218BB22B9B829000B6C170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97218BB92B9B829000B6C170;
+			remoteInfo = Memorize_stanford;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97218BBA2B9B829000B6C170 /* Memorize_stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize_stanford.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97218BBD2B9B829000B6C170 /* Memorize_stanfordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_stanfordApp.swift; sourceTree = "<group>"; };
+		97218BBF2B9B829000B6C170 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97218BC12B9B829100B6C170 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97218BC42B9B829100B6C170 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97218BCA2B9B829100B6C170 /* Memorize_stanfordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Memorize_stanfordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97218BCE2B9B829100B6C170 /* Memorize_stanfordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_stanfordTests.swift; sourceTree = "<group>"; };
+		97218BD42B9B829100B6C170 /* Memorize_stanfordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Memorize_stanfordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97218BD82B9B829100B6C170 /* Memorize_stanfordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_stanfordUITests.swift; sourceTree = "<group>"; };
+		97218BDA2B9B829100B6C170 /* Memorize_stanfordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_stanfordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97218BB72B9B829000B6C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97218BC72B9B829100B6C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97218BD12B9B829100B6C170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97218BB12B9B829000B6C170 = {
+			isa = PBXGroup;
+			children = (
+				97218BBC2B9B829000B6C170 /* Memorize_stanford */,
+				97218BCD2B9B829100B6C170 /* Memorize_stanfordTests */,
+				97218BD72B9B829100B6C170 /* Memorize_stanfordUITests */,
+				97218BBB2B9B829000B6C170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97218BBB2B9B829000B6C170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97218BBA2B9B829000B6C170 /* Memorize_stanford.app */,
+				97218BCA2B9B829100B6C170 /* Memorize_stanfordTests.xctest */,
+				97218BD42B9B829100B6C170 /* Memorize_stanfordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97218BBC2B9B829000B6C170 /* Memorize_stanford */ = {
+			isa = PBXGroup;
+			children = (
+				97218BBD2B9B829000B6C170 /* Memorize_stanfordApp.swift */,
+				97218BBF2B9B829000B6C170 /* ContentView.swift */,
+				97218BC12B9B829100B6C170 /* Assets.xcassets */,
+				97218BC32B9B829100B6C170 /* Preview Content */,
+			);
+			path = Memorize_stanford;
+			sourceTree = "<group>";
+		};
+		97218BC32B9B829100B6C170 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97218BC42B9B829100B6C170 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97218BCD2B9B829100B6C170 /* Memorize_stanfordTests */ = {
+			isa = PBXGroup;
+			children = (
+				97218BCE2B9B829100B6C170 /* Memorize_stanfordTests.swift */,
+			);
+			path = Memorize_stanfordTests;
+			sourceTree = "<group>";
+		};
+		97218BD72B9B829100B6C170 /* Memorize_stanfordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97218BD82B9B829100B6C170 /* Memorize_stanfordUITests.swift */,
+				97218BDA2B9B829100B6C170 /* Memorize_stanfordUITestsLaunchTests.swift */,
+			);
+			path = Memorize_stanfordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97218BB92B9B829000B6C170 /* Memorize_stanford */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97218BDE2B9B829100B6C170 /* Build configuration list for PBXNativeTarget "Memorize_stanford" */;
+			buildPhases = (
+				97218BB62B9B829000B6C170 /* Sources */,
+				97218BB72B9B829000B6C170 /* Frameworks */,
+				97218BB82B9B829000B6C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memorize_stanford;
+			productName = Memorize_stanford;
+			productReference = 97218BBA2B9B829000B6C170 /* Memorize_stanford.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97218BC92B9B829100B6C170 /* Memorize_stanfordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97218BE12B9B829100B6C170 /* Build configuration list for PBXNativeTarget "Memorize_stanfordTests" */;
+			buildPhases = (
+				97218BC62B9B829100B6C170 /* Sources */,
+				97218BC72B9B829100B6C170 /* Frameworks */,
+				97218BC82B9B829100B6C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97218BCC2B9B829100B6C170 /* PBXTargetDependency */,
+			);
+			name = Memorize_stanfordTests;
+			productName = Memorize_stanfordTests;
+			productReference = 97218BCA2B9B829100B6C170 /* Memorize_stanfordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97218BD32B9B829100B6C170 /* Memorize_stanfordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97218BE42B9B829100B6C170 /* Build configuration list for PBXNativeTarget "Memorize_stanfordUITests" */;
+			buildPhases = (
+				97218BD02B9B829100B6C170 /* Sources */,
+				97218BD12B9B829100B6C170 /* Frameworks */,
+				97218BD22B9B829100B6C170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97218BD62B9B829100B6C170 /* PBXTargetDependency */,
+			);
+			name = Memorize_stanfordUITests;
+			productName = Memorize_stanfordUITests;
+			productReference = 97218BD42B9B829100B6C170 /* Memorize_stanfordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97218BB22B9B829000B6C170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					97218BB92B9B829000B6C170 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					97218BC92B9B829100B6C170 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 97218BB92B9B829000B6C170;
+					};
+					97218BD32B9B829100B6C170 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 97218BB92B9B829000B6C170;
+					};
+				};
+			};
+			buildConfigurationList = 97218BB52B9B829000B6C170 /* Build configuration list for PBXProject "Memorize_stanford" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97218BB12B9B829000B6C170;
+			productRefGroup = 97218BBB2B9B829000B6C170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97218BB92B9B829000B6C170 /* Memorize_stanford */,
+				97218BC92B9B829100B6C170 /* Memorize_stanfordTests */,
+				97218BD32B9B829100B6C170 /* Memorize_stanfordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97218BB82B9B829000B6C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97218BC52B9B829100B6C170 /* Preview Assets.xcassets in Resources */,
+				97218BC22B9B829100B6C170 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97218BC82B9B829100B6C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97218BD22B9B829100B6C170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97218BB62B9B829000B6C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97218BC02B9B829000B6C170 /* ContentView.swift in Sources */,
+				97218BBE2B9B829000B6C170 /* Memorize_stanfordApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97218BC62B9B829100B6C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97218BCF2B9B829100B6C170 /* Memorize_stanfordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97218BD02B9B829100B6C170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97218BD92B9B829100B6C170 /* Memorize_stanfordUITests.swift in Sources */,
+				97218BDB2B9B829100B6C170 /* Memorize_stanfordUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97218BCC2B9B829100B6C170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97218BB92B9B829000B6C170 /* Memorize_stanford */;
+			targetProxy = 97218BCB2B9B829100B6C170 /* PBXContainerItemProxy */;
+		};
+		97218BD62B9B829100B6C170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97218BB92B9B829000B6C170 /* Memorize_stanford */;
+			targetProxy = 97218BD52B9B829100B6C170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97218BDC2B9B829100B6C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97218BDD2B9B829100B6C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97218BDF2B9B829100B6C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize_stanford/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Memorize-stanford";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97218BE02B9B829100B6C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize_stanford/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Memorize-stanford";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97218BE22B9B829100B6C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Memorize-stanfordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize_stanford.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memorize_stanford";
+			};
+			name = Debug;
+		};
+		97218BE32B9B829100B6C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Memorize-stanfordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize_stanford.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Memorize_stanford";
+			};
+			name = Release;
+		};
+		97218BE52B9B829100B6C170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Memorize-stanfordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memorize_stanford;
+			};
+			name = Debug;
+		};
+		97218BE62B9B829100B6C170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "learning.Memorize-stanfordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memorize_stanford;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97218BB52B9B829000B6C170 /* Build configuration list for PBXProject "Memorize_stanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97218BDC2B9B829100B6C170 /* Debug */,
+				97218BDD2B9B829100B6C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97218BDE2B9B829100B6C170 /* Build configuration list for PBXNativeTarget "Memorize_stanford" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97218BDF2B9B829100B6C170 /* Debug */,
+				97218BE02B9B829100B6C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97218BE12B9B829100B6C170 /* Build configuration list for PBXNativeTarget "Memorize_stanfordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97218BE22B9B829100B6C170 /* Debug */,
+				97218BE32B9B829100B6C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97218BE42B9B829100B6C170 /* Build configuration list for PBXNativeTarget "Memorize_stanfordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97218BE52B9B829100B6C170 /* Debug */,
+				97218BE62B9B829100B6C170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97218BB22B9B829000B6C170 /* Project object */;
+}
