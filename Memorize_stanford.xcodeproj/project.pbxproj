@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9708D86F2BA0CDB100C739F0 /* memorizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9708D86E2BA0CDB100C739F0 /* memorizeModel.swift */; };
+		9708D8712BA0D34B00C739F0 /* mascotesMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9708D8702BA0D34B00C739F0 /* mascotesMemoryGame.swift */; };
 		97218BBE2B9B829000B6C170 /* Memorize_stanfordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BBD2B9B829000B6C170 /* Memorize_stanfordApp.swift */; };
 		97218BC02B9B829000B6C170 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97218BBF2B9B829000B6C170 /* ContentView.swift */; };
 		97218BC22B9B829100B6C170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97218BC12B9B829100B6C170 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9708D86E2BA0CDB100C739F0 /* memorizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memorizeModel.swift; sourceTree = "<group>"; };
+		9708D8702BA0D34B00C739F0 /* mascotesMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mascotesMemoryGame.swift; sourceTree = "<group>"; };
 		97218BBA2B9B829000B6C170 /* Memorize_stanford.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize_stanford.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97218BBD2B9B829000B6C170 /* Memorize_stanfordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memorize_stanfordApp.swift; sourceTree = "<group>"; };
 		97218BBF2B9B829000B6C170 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 		97218BBC2B9B829000B6C170 /* Memorize_stanford */ = {
 			isa = PBXGroup;
 			children = (
+				9708D86E2BA0CDB100C739F0 /* memorizeModel.swift */,
+				9708D8702BA0D34B00C739F0 /* mascotesMemoryGame.swift */,
 				97218BBD2B9B829000B6C170 /* Memorize_stanfordApp.swift */,
 				97218BBF2B9B829000B6C170 /* ContentView.swift */,
 				97218BC12B9B829100B6C170 /* Assets.xcassets */,
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9708D86F2BA0CDB100C739F0 /* memorizeModel.swift in Sources */,
+				9708D8712BA0D34B00C739F0 /* mascotesMemoryGame.swift in Sources */,
 				97218BC02B9B829000B6C170 /* ContentView.swift in Sources */,
 				97218BBE2B9B829000B6C170 /* Memorize_stanfordApp.swift in Sources */,
 			);

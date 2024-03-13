@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+struct MemoryGame <CardContent> {
+    var cards: Array<Card>
+    
+    func ChooseCard(card:Card){}
+    
+    struct Card{
+        var IsFaceUp: Bool
+        var IsMatched: Bool
+        var Content: CardContent
+        
+    }
+}
